@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+watchdog = "*"
+
+[packages]
+flask = "*"
+pymysql = "*"
+flask-cors = "*"
+flask-httpauth = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+requests = "*"
+python-dotenv = "*"
+faker = "*"
+
+[requires]
+python_version = "3.7"
